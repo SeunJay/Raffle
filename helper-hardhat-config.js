@@ -22,8 +22,13 @@ const networkConfig = {
 };
 
 const developmentChains = ["hardhat", "localhost"];
+const frontEndContractsFile =
+  "../lottery-frontend/constants/contractAddresses.json";
+const frontEndAbiFile = "../lottery-frontend/constants/abi.json";
 
 module.exports = {
   networkConfig,
   developmentChains,
+  frontEndContractsFile,
+  frontEndAbiFile,
 };
